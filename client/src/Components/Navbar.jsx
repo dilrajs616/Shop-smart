@@ -5,7 +5,7 @@ import logo from '../assets/shopsmart.png'
 const Navbar = () => {
     
     return (
-        <div className="navbar bg-base-300 md:px-8">
+        <div className="navbar bg-base-300 p-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -25,7 +25,7 @@ const Navbar = () => {
                 
             </div>
 
-            <div className="navbar-end space-x-2">
+            <div className="navbar-end space-x-2 md:p-2">
                 <a className='btn'>Signup</a>
                 <a className="btn">Login</a>
             </div>
