@@ -7,12 +7,12 @@ const Navbar = () => {
     return (
         <div className="navbar bg-base-300 p-8">
             <div className="navbar-start pl-44">
-                <a className="btn btn-ghost text-3xl font-bold">
-                <img src={logo} alt="app logo" className='h-8 w-8 opacity-50' />ShopSmart
+                <a className="btn btn-ghost text-4xl font-extrabold">
+                <img src={logo} alt="app logo" className='h-10 w-10' />ShopSmart
                 </a>
             </div>
 
-            <div className="navbar-center hidden lg:flex">
+            <div className="navbar-center hidden lg:flex font-black">
                 <ul className="menu menu-horizontal px-1">
                 <li><a>Item 1</a></li>
                 <li>
@@ -29,8 +29,8 @@ const Navbar = () => {
            </div>
 
             <div className="navbar-end hidden lg:flex space-x-4 pr-44">
-                <a className='btn'>Signup</a>
-                <a className="btn">Login</a>
+                <a className='btn text-xl font-black'>Signup</a>
+                <a className="btn text-xl font-black">Login</a>
             </div>
         </div>
     )
