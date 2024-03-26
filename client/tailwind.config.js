@@ -11,6 +11,8 @@ export default {
   daisyui: {
     themes: [
       "nord",
-    ],
+      "light",
+      "dim"
+    ]
   },
 }
